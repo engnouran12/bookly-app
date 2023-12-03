@@ -11,7 +11,7 @@ class ListBooks extends StatelessWidget {
         child: ListView.builder(
           itemBuilder: (BuildContext context, i) {
             return const Padding(
-              padding: EdgeInsets.symmetric(horizontal: .0),
+              padding: EdgeInsets.symmetric(horizontal: .8),
               child: ItemBook(),
             );
           },

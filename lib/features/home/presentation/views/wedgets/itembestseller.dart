@@ -6,24 +6,27 @@ class ItemBestSeller extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  SizedBox(
-      height: 125,
-      child: Row(children: [
-       AspectRatio(
-        aspectRatio: 2.4 / 4,
-        child: Container(
-          decoration: const BoxDecoration(
-            color: Colors.black,
-            image: DecorationImage(
-                image: AssetImage(
-                  AssetsData.testImage,
-                ),
-                fit: BoxFit.fill),
+    return  Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: SizedBox(
+        height: 125,
+        child: Row(children: [
+         AspectRatio(
+          aspectRatio: 2.4 / 4,
+          child: Container(
+            decoration: const BoxDecoration(
+              color: Colors.black,
+              image: DecorationImage(
+                  image: AssetImage(
+                    AssetsData.testImage,
+                  ),
+                  fit: BoxFit.fill),
+            ),
           ),
-        ),
-      )
-      
-      ]),
+        )
+        
+        ]),
+      ),
     );
   }
 }
