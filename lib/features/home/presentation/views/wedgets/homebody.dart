@@ -1,8 +1,6 @@
-import 'package:bookly/core/utilities/assets/assets.dart';
 import 'package:bookly/core/utilities/styless/stylestext.dart';
 import 'package:bookly/features/home/presentation/views/wedgets/customappbar.dart';
 import 'package:bookly/features/home/presentation/views/wedgets/itembestseller.dart';
-import 'package:bookly/features/home/presentation/views/wedgets/itemlist.dart';
 import 'package:bookly/features/home/presentation/views/wedgets/listbook.dart';
 import 'package:flutter/material.dart';
 
